@@ -4,16 +4,16 @@ branding:
   icon: clipboard
   color: yellow
 inputs:
-  secret_name:
+  secret-name:
     description: 'Name for the group of secrets'
     required: true
-  aws_access_key_id:
+  aws-access-key-id:
     description: 'AWS Access Key ID'
     required: true
-  aws_secret_access_key:
+  aws-secret-access-key:
     description: 'AWS Secret Access Key'
     required: true
-  aws_region:
+  aws-region:
     description: 'AWS Region'
     required: true
 runs:

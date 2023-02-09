@@ -1,10 +1,10 @@
 const core = require('@actions/core');
 const AWS = require('aws-sdk');
 
-const secretName = core.getInput('secret_name');
-const accessKeyId = core.getInput('aws_access_key');
-const secretAccessKey = core.getInput('aws_secret_access_key');
-const awsRegion = core.getInput('aws_region');
+const secretName = core.getInput('secret-name');
+const accessKeyId = core.getInput('aws-access-key-id');
+const secretAccessKey = core.getInput('aws-secret-access-key');
+const awsRegion = core.getInput('aws-region');
 
 AWS.config.update({ region: awsRegion});
 
