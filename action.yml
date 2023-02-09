@@ -1,0 +1,21 @@
+name: 'AWS Secrets Manager get secrets'
+description: 'Gets the secrets of an AWS Secrets Manager identifier'
+branding:
+  icon: clipboard
+  color: yellow
+inputs:
+  secret_name:
+    description: 'Name for the group of secrets'
+    required: true
+  aws_access_key_id:
+    description: 'AWS Access Key ID'
+    required: true
+  aws_secret_access_key:
+    description: 'AWS Secret Access Key'
+    required: true
+  aws_region:
+    description: 'AWS Region'
+    required: true
+runs:
+  using: 'node16'
+  main: 'index.js'

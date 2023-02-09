@@ -1,0 +1,24 @@
+{
+  "name": "aws-secrets-manager-get-secrets",
+  "version": "1.0.0",
+  "description": "GitHub Action that gets secrets from AWS Secrets Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/condorlabs-actions/aws-secrets-manager-get-secrets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/condorlabs-actions/aws-secrets-manager-get-secrets/issues"
+  },
+  "homepage": "https://github.com/condorlabs-actions/aws-secrets-manager-get-secrets#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "aws-sdk": "^2.382.0"
+  }
+}
